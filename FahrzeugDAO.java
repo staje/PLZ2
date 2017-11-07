@@ -13,5 +13,5 @@ public interface FahrzeugDAO {
 	
 	public void speichereFahrzeug(Fahrzeug fahrzeug);
 
-	public void loescheFahrzeug(int id);
+	public void loescheFahrzeug(String id);
 }
